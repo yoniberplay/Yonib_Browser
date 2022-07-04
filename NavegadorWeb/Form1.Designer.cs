@@ -109,6 +109,7 @@
             this.webBrowser1.TabIndex = 1;
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
             this.webBrowser1.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.webBrowser1_Navigating);
+            this.webBrowser1.Navigate("google.com.do");
             // 
             // btnsearch
             // 
